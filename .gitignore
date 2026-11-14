@@ -5,6 +5,5 @@ data/raw/
 data/rejected/
 .venv/
 *.py[cod]
-weather.db
 *.backup
 *.temp
