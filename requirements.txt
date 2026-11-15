@@ -1,0 +1,7 @@
+requests
+pydantic>=2,<3
+pandas
+streamlit
+altair
+matplotlib
+seaborn
