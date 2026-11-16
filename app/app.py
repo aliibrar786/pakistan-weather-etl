@@ -65,5 +65,5 @@ st.write(
     f"coldest: **{by_city.temp.idxmin()}** ({by_city.temp.min():.1f} °C).\n"
     f"- Wettest city: **{by_city.rain.idxmax()}** ({by_city.rain.max():,.0f} mm in total).\n"
     f"- In {city}, the rainiest month is **{pd.Timestamp(2000, int(rain.idxmax()), 1):%B}** "
-    f"and the correlation between temperature and rainfall is **{d.temp_avg.corr(d.precipitation, method='spearman'):.2f}**."
+    f"and the correlation between temperature and rainfall is **{d.temp_avg.rank().corr(d.precipitation.rank()):.2f}**."
 )
