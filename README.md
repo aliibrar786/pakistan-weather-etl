@@ -40,4 +40,4 @@ Pipeline log: `pipeline.log`. Rejected records: `data/rejected/rejected_records.
 Muhammad Ali (ETL core, integration), Asjad Rauf (validation, loading), Rao (EDA, web app), Asfand (docs, testing).
 
 ## Web app
-Live link: _add Streamlit Community Cloud URL here_
+Live link: https://pakistan-weather-ali.streamlit.app/
